@@ -19,8 +19,6 @@
   
 .container {
     display: grid;
-    grid-template-areas:
-    "image chat footer";
     margin: 0 auto;
     align-items: center;
     width: 1000px;
@@ -52,12 +50,8 @@
 .chat {
     grid-area: chat;
     grid-column-start: 2;
-    grid-column-end: span 2;
     grid-row-start: 1;
-    grid-row-end: 1;
     height: 200px;
-    justify-content: center;
-    align-items: center;
 }
   
     @media (max-width: 767px) {
@@ -76,10 +70,11 @@
    
   input { 
       border: 0; 
-      padding: 10px; 
-      margin-right: auto;
+      padding: 10px;
+      margin: 10px;
       border-radius: 10px;
-      width: min-content;
+      width: 100%;
+      background: rgb(253, 204, 159);
   }
   
   .messages {
@@ -88,9 +83,10 @@
       overflow: scroll;
       height: 90%;
       width: 100%;
-      background-color: rgb(232, 231, 231);
+      background-color: rgb(199, 198, 198);
       padding: 10px;
       border-radius: 10px;
+      margin: 10px;
   }
   
   #bot {
@@ -124,7 +120,7 @@
     grid-row-start: 3;
     grid-row-end: 3;
     display: flex;
-    background: silver;
+    background: rgb(119, 119, 119);
     color: #eee;
     border-radius: 10px;
     justify-content: center;
@@ -155,16 +151,3 @@
 .footer__link:active {
     color: #3a64fb;
 }
-  
-  /* Mobile */
-  
-  @media only screen and (max-width: 980px) {
-    .container {
-          flex-direction: column; 
-          justify-content: flex-start;
-      }
-      .chat {
-          width: 75vw;
-          margin: 10vw;
-      }
-  }
