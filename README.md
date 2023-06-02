@@ -14,4 +14,5 @@ A simple chatbot created as part of self-study. The bot ignores everything other
 - Open Graph Protocol
 
 ## Images and graphics:
-Robot image comes from Alexandra_Koch(https://pixabay.com/pl/users/alexandra_koch-621802/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=7720802) from Pixaby(https://pixabay.com/pl//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=7720802)
+
+Robot image comes from [Alexandra_Koch](https://pixabay.com/pl/users/alexandra_koch-621802/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=7720802) from [Pixaby](https://pixabay.com/pl/users/alexandra_koch-621802/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=7720802).
